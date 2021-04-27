@@ -24,7 +24,7 @@ public class PermissionServiceImpl implements PermissionService {
     private PermissionMapper permissionMapper;
 
     @Override
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public void createPermission(Permission permission) {
         if (permission.getParentId() == Constants.PERMISSION_ROOT_ID) {
             permission.setParentIds("0/");

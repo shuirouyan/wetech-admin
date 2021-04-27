@@ -27,7 +27,7 @@ public class JwtFilter extends AccessControlFilter {
     }
 
     @Override
-    protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue) throws Exception {
+    protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue) {
         return false;
     }
 
@@ -42,6 +42,7 @@ public class JwtFilter extends AccessControlFilter {
                 getSubject(request, response).login(token);
                 return true;
             } catch (Exception e) {
+                log.error("onAccessDenied, message info {}", e.getMessage());
             }
         }
         onLoginFail(response);
