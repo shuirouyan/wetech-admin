@@ -41,6 +41,7 @@ public class IndexController {
     public Result<List<Map<String, Object>>> getUserNav() {
         String username = (String) SecurityUtils.getSubject().getPrincipal();
         Set<String> permissions = userService.queryPermissions(username);
+        log.info("user info {}", JSONUtil.toJSONString(permissions));
         List<PermissionTreeDTO> permissionTreeDTOS = permissionService.queryMenus(permissions);
         List<Map<String, Object>> list = new ArrayList<>();
         for (PermissionTreeDTO permission : permissionTreeDTOS) {

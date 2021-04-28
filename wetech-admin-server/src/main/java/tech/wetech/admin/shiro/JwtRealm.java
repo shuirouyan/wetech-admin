@@ -48,11 +48,12 @@ public class JwtRealm extends AuthorizingRealm {
         }
 
         //交给AuthenticatingRealm使用CredentialsMatcher进行密码匹配，不设置则使用默认的SimpleCredentialsMatcher
-        SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(
-                username, //用户名
-                credentials, //凭证
-                getName()  //realm name
-        );
-        return authenticationInfo;
+        /**
+         * username, //用户名
+         * credentials, //凭证
+         * getName()  //realm name
+         * SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(username, credentials, getName());
+         */
+        return new SimpleAuthenticationInfo(username, credentials, getName());
     }
 }
