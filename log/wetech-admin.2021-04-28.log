@@ -1,0 +1,599 @@
+2021-04-28 13:36:28.155  INFO 2844 --- [restartedMain] t.wetech.admin.WetechAdminApplication    : Starting WetechAdminApplication on DESKTOP-K0B0JQ9 with PID 2844 (D:\code\Security\wetech-admin\wetech-admin-server\target\classes started by kangchen in D:\code\Security\wetech-admin)
+2021-04-28 13:36:28.156 DEBUG 2844 --- [restartedMain] t.wetech.admin.WetechAdminApplication    : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-04-28 13:36:28.157  INFO 2844 --- [restartedMain] t.wetech.admin.WetechAdminApplication    : The following profiles are active: development
+2021-04-28 13:36:28.199  INFO 2844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-28 13:36:28.200  INFO 2844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-28 13:36:29.078  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [tech.wetech.admin.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$e8cf5a4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.224  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-tech.wetech.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [tech.wetech.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.233  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tech.wetech.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [tech.wetech.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$44aeecbd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.235  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.242  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.269  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.285  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.290  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.431  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.433  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.463  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.464  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleMapper' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.488  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.490  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.490  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [tech.wetech.admin.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.491  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleServiceImpl' of type [tech.wetech.admin.service.impl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.495  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'passwordHelper' of type [tech.wetech.admin.service.PasswordHelper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.495  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [tech.wetech.admin.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.495  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jwtRealm' of type [tech.wetech.admin.shiro.JwtRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.499  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'subjectFactory' of type [tech.wetech.admin.shiro.JwtSubjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.506  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.507  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.598  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.599  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodInvokingFactoryBean' of type [org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:29.651  INFO 2844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 13:36:30.181  INFO 2844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-28 13:36:30.195  INFO 2844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 13:36:30.195  INFO 2844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-04-28 13:36:30.267  INFO 2844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 13:36:30.267  INFO 2844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2067 ms
+2021-04-28 13:36:30.876  INFO 2844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-28 13:36:30.938  INFO 2844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-28 13:36:31.300  INFO 2844 --- [restartedMain] t.wetech.admin.WetechAdminApplication    : Started WetechAdminApplication in 3.502 seconds (JVM running for 5.539)
+2021-04-28 13:36:31.304 DEBUG 2844 --- [SimpleAsyncTaskExecutor-31] t.w.a.e.GlobalAnnotationDrivenListener   : Handling application org.springframework.boot.context.event.ApplicationStartedEvent[source=org.springframework.boot.SpringApplication@4946af02] started event.
+2021-04-28 13:36:31.306 DEBUG 2844 --- [SimpleAsyncTaskExecutor-31] t.w.a.e.GlobalAnnotationDrivenListener   : >>>>>>>>>>>>>>> 服务启动完成！
+2021-04-28 13:39:24.916  INFO 2844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-28 13:39:24.916  INFO 2844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-28 13:39:25.139  INFO 2844 --- [http-nio-8080-exec-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 13:39:25.257  INFO 2844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 341 ms
+2021-04-28 13:41:34.571  WARN 2844 --- [http-nio-8080-exec-6] javax.persistence.spi                    : javax.persistence.spi::No valid providers found.
+2021-04-28 13:41:34.590  INFO 2844 --- [http-nio-8080-exec-6] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.LoginController.login(LoginDTO), args: [LoginDTO(username=admin, password=123456)]
+2021-04-28 13:41:34.615  INFO 2844 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-28 13:41:36.432 ERROR 2844 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at tech.wetech.mybatis.ExtConfiguration.getAutoDialect(ExtConfiguration.java:88)
+	at tech.wetech.mybatis.ExtConfiguration.newExecutor(ExtConfiguration.java:78)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSessionFromDataSource(DefaultSqlSessionFactory.java:96)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSession(DefaultSqlSessionFactory.java:57)
+	at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:105)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:423)
+	at com.sun.proxy.$Proxy59.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy68.selectByExample(Unknown Source)
+	at tech.wetech.mybatis.example.MapperCriteria.selectOne(MapperCriteria.java:40)
+	at tech.wetech.admin.mapper.UserMapper.selectByUsername(UserMapper.java:14)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:710)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:166)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy68.selectByUsername(Unknown Source)
+	at tech.wetech.admin.service.impl.UserServiceImpl.login(UserServiceImpl.java:93)
+	at tech.wetech.admin.controller.LoginController.login(LoginController.java:28)
+	at tech.wetech.admin.controller.LoginController$$FastClassBySpringCGLIB$$1f778e64.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at tech.wetech.admin.aspect.ControllerLogAspect.aroundMethod(ControllerLogAspect.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at tech.wetech.admin.controller.LoginController$$EnhancerBySpringCGLIB$$b2862060.login(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:702)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:641)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:128)
+	at com.mysql.cj.NativeSession.sendCommand(NativeSession.java:311)
+	at com.mysql.cj.NativeSession.loadServerVariables(NativeSession.java:764)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1298)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:967)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 121 common frames omitted
+Caused by: javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:352)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:295)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:290)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1521)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:965)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:532)
+	... 129 common frames omitted
+	Suppressed: java.net.SocketException: Connection reset by peer: socket write error
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
+		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:83)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383)
+		... 142 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1308)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:949)
+	... 138 common frames omitted
+
+2021-04-28 13:41:36.440  WARN 2844 --- [http-nio-8080-exec-6] t.w.admin.aspect.ControllerLogAspect     : >>> Execute Result tech.wetech.admin.controller.LoginController.login(LoginDTO) has occurred exception: org.apache.ibatis.exceptions.PersistenceException: 
+### Error opening session.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-04-28 13:41:36.445 ERROR 2844 --- [http-nio-8080-exec-6] t.w.a.exception.GlobalExceptionHandler   : execute method exception error.url is /auth/login
+
+org.apache.ibatis.exceptions.PersistenceException: 
+### Error opening session.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSessionFromDataSource(DefaultSqlSessionFactory.java:100)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSession(DefaultSqlSessionFactory.java:57)
+	at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:105)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:423)
+	at com.sun.proxy.$Proxy59.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy68.selectByExample(Unknown Source)
+	at tech.wetech.mybatis.example.MapperCriteria.selectOne(MapperCriteria.java:40)
+	at tech.wetech.admin.mapper.UserMapper.selectByUsername(UserMapper.java:14)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:710)
+	at org.apache.ibatis.binding.MapperProxy$DefaultMethodInvoker.invoke(MapperProxy.java:166)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy68.selectByUsername(Unknown Source)
+	at tech.wetech.admin.service.impl.UserServiceImpl.login(UserServiceImpl.java:93)
+	at tech.wetech.admin.controller.LoginController.login(LoginController.java:28)
+	at tech.wetech.admin.controller.LoginController$$FastClassBySpringCGLIB$$1f778e64.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at tech.wetech.admin.aspect.ControllerLogAspect.aroundMethod(ControllerLogAspect.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at tech.wetech.admin.controller.LoginController$$EnhancerBySpringCGLIB$$b2862060.login(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at tech.wetech.mybatis.ExtConfiguration.getAutoDialect(ExtConfiguration.java:88)
+	at tech.wetech.mybatis.ExtConfiguration.newExecutor(ExtConfiguration.java:78)
+	at org.apache.ibatis.session.defaults.DefaultSqlSessionFactory.openSessionFromDataSource(DefaultSqlSessionFactory.java:96)
+	... 103 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 108 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:702)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:641)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:128)
+	at com.mysql.cj.NativeSession.sendCommand(NativeSession.java:311)
+	at com.mysql.cj.NativeSession.loadServerVariables(NativeSession.java:764)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1298)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:967)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 121 common frames omitted
+Caused by: javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:352)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:295)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:290)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1521)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:965)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:532)
+	... 129 common frames omitted
+	Suppressed: java.net.SocketException: Connection reset by peer: socket write error
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
+		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:83)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383)
+		... 142 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1308)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:949)
+	... 138 common frames omitted
+
+2021-04-28 13:41:36.487  WARN 2844 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.exceptions.PersistenceException: 
+### Error opening session.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.]
+2021-04-28 13:42:39.920  INFO 2844 --- [http-nio-8080-exec-10] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.LoginController.login(LoginDTO), args: [LoginDTO(username=admin, password=123456)]
+2021-04-28 13:42:39.920  INFO 2844 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-28 13:42:39.989  INFO 2844 --- [http-nio-8080-exec-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-28 13:42:40.046 DEBUG 2844 --- [http-nio-8080-exec-10] t.w.a.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, username, password, salt, role_ids, locked from sys_user WHERE ( username = ? )
+2021-04-28 13:42:40.064 DEBUG 2844 --- [http-nio-8080-exec-10] t.w.a.mapper.UserMapper.selectByExample  : ==> Parameters: admin(String)
+2021-04-28 13:42:40.093 DEBUG 2844 --- [http-nio-8080-exec-10] t.w.a.mapper.UserMapper.selectByExample  : <==      Total: 1
+2021-04-28 13:42:40.107  INFO 2844 --- [http-nio-8080-exec-10] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.LoginController.login(LoginDTO) in 187 ms, return: Result(success=true, code=1000, message=成功, result=UserTokenDTO(username=admin, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjdXJyZW50VGltZU1pbGxpcyI6IjE2MTk1ODg1NjAwOTciLCJleHAiOjE2MjAxOTMzNjAsInVzZXJuYW1lIjoiYWRtaW4ifQ.6w5s_9VsYnAS2Mrsek5nRx4zMoMm46fKGZGwmIR8i70))
+2021-04-28 13:43:12.965  INFO 2844 --- [http-nio-8080-exec-1] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.IndexController.initializeDatasource(), args: []
+2021-04-28 13:43:13.217  INFO 2844 --- [http-nio-8080-exec-1] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.IndexController.initializeDatasource() in 252 ms, return: Result(success=true, code=1000, message=成功, result=null)
+2021-04-28 13:43:37.534  INFO 2844 --- [http-nio-8080-exec-2] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.IndexController.getUserInfo(), args: []
+2021-04-28 13:43:37.537 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.a.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, username, password, salt, role_ids, locked from sys_user WHERE ( username = ? )
+2021-04-28 13:43:37.538 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.a.mapper.UserMapper.selectByExample  : ==> Parameters: admin(String)
+2021-04-28 13:43:37.539 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.a.mapper.UserMapper.selectByExample  : <==      Total: 1
+2021-04-28 13:43:37.543 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.a.mapper.RoleMapper.selectByExample  : ==>  Preparing: select id, role, name, description, status, permission_ids from sys_role WHERE ( id in (?) )
+2021-04-28 13:43:37.544 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.a.mapper.RoleMapper.selectByExample  : ==> Parameters: 1(Long)
+2021-04-28 13:43:37.546 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.a.mapper.RoleMapper.selectByExample  : <==      Total: 1
+2021-04-28 13:43:37.550 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.a.m.P.selectByExample                : ==>  Preparing: select id, name, type, permission, parent_id, parent_ids, icon, config, status, sort from sys_permission WHERE ( id in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) )
+2021-04-28 13:43:37.551 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.a.m.P.selectByExample                : ==> Parameters: 1(Long), 131(Long), 132(Long), 133(Long), 134(Long), 40(Long), 10(Long), 139(Long), 43(Long), 44(Long), 45(Long), 46(Long), 111(Long), 47(Long), 112(Long), 113(Long), 114(Long), 21(Long), 121(Long), 122(Long), 123(Long), 124(Long), 31(Long)
+2021-04-28 13:43:37.572 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.a.m.P.selectByExample                : <==      Total: 23
+2021-04-28 13:43:37.573  INFO 2844 --- [http-nio-8080-exec-2] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.IndexController.getUserInfo() in 39 ms, return: Result(success=true, code=1000, message=成功, result=UserInfoVO(name=admin, avatar=/avatar2.jpg, permissions=[user:view, permission:view, account:base, user:delete, role:update, permission:create, account:security, user:update, permission:update, workspace:view, account:custom, analysis:view, user:create, permission:delete, role:create, role:view, userinfo:center:view, account:binding, role:delete, user:mgr, account:notification, dashboard, account]))
+2021-04-28 13:50:57.413  INFO 2844 --- [http-nio-8080-exec-4] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.IndexController.getUserNav(), args: []
+2021-04-28 13:50:57.414 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, username, password, salt, role_ids, locked from sys_user WHERE ( username = ? )
+2021-04-28 13:50:57.415 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.mapper.UserMapper.selectByExample  : ==> Parameters: admin(String)
+2021-04-28 13:50:57.416 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.mapper.UserMapper.selectByExample  : <==      Total: 1
+2021-04-28 13:50:57.417 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.mapper.RoleMapper.selectByExample  : ==>  Preparing: select id, role, name, description, status, permission_ids from sys_role WHERE ( id in (?) )
+2021-04-28 13:50:57.418 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.mapper.RoleMapper.selectByExample  : ==> Parameters: 1(Long)
+2021-04-28 13:50:57.419 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.mapper.RoleMapper.selectByExample  : <==      Total: 1
+2021-04-28 13:50:57.421 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.m.P.selectByExample                : ==>  Preparing: select id, name, type, permission, parent_id, parent_ids, icon, config, status, sort from sys_permission WHERE ( id in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) )
+2021-04-28 13:50:57.422 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.m.P.selectByExample                : ==> Parameters: 1(Long), 131(Long), 132(Long), 133(Long), 134(Long), 40(Long), 10(Long), 139(Long), 43(Long), 44(Long), 45(Long), 46(Long), 111(Long), 47(Long), 112(Long), 113(Long), 114(Long), 21(Long), 121(Long), 122(Long), 123(Long), 124(Long), 31(Long)
+2021-04-28 13:50:57.426 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.m.P.selectByExample                : <==      Total: 23
+2021-04-28 13:50:57.427  INFO 2844 --- [http-nio-8080-exec-4] t.w.admin.controller.IndexController     : user info ["user:view","permission:view","account:base","user:delete","role:update","permission:create","account:security","user:update","permission:update","workspace:view","account:custom","analysis:view","user:create","permission:delete","role:create","role:view","userinfo:center:view","account:binding","role:delete","user:mgr","account:notification","dashboard","account"]
+2021-04-28 13:50:57.429 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.m.P.selectByExample                : ==>  Preparing: select id, name, type, permission, parent_id, parent_ids, icon, config, status, sort from sys_permission order by sort
+2021-04-28 13:50:57.429 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.m.P.selectByExample                : ==> Parameters: 
+2021-04-28 13:50:57.434 DEBUG 2844 --- [http-nio-8080-exec-4] t.w.a.m.P.selectByExample                : <==      Total: 30
+2021-04-28 13:50:57.447  INFO 2844 --- [http-nio-8080-exec-4] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.IndexController.getUserNav() in 34 ms, return: Result(success=true, code=1000, message=成功, result=[{meta={icon=dashboard, show=true, title=仪表盘}, name=dashboard, redirect=/dashboard/workplace, component=RouteView, id=1, parentId=0}, {meta={show=true, title=工作台}, name=workplace, component=Workplace, id=2, parentId=1}, {meta={show=true, title=分析页}, name=analysis, component=Analysis, id=3, parentId=1}, {meta={icon=user, show=true, title=用户列表}, name=user-list, component=UserList, id=11, parentId=10}, {meta={icon=team, show=true, title=角色列表}, name=role-list, component=RoleList, id=12, parentId=10}, {meta={icon=tool, show=true, title=权限列表}, name=permission-list, component=PermissionList, id=13, parentId=10}, {meta={icon=user, show=true, title=个人中心}, name=center, component=AccountCenter, id=41, parentId=40}, {meta={icon=user, show=true, title=个人设置, hideHeader=true, hideChildren=true}, name=settings, redirect=/account/settings/base, component=AccountSettings, id=42, parentId=40}, {meta={icon=user, title=基本设置, keepAlive=true}, path=/account/settings/base, component=BaseSettings, id=43, parentId=42}, {meta={title=安全设置, keepAlive=true}, name=security, path=/account/settings/security, component=SecuritySettings, id=44, parentId=42}, {meta={icon=user, title=个性化设置, keepAlive=true}, path=/account/settings/custom, component=CustomSettings, id=45, parentId=42}, {meta={icon=, title=账户绑定, keepAlive=true}, path=/account/settings/binding, component=BindingSettings, id=46, parentId=42}, {meta={title=新消息通知, keepAlive=true}, path=/account/settings/notification, component=NotificationSettings, id=47, parentId=42}, {meta={icon=user, show=true, title=用户管理}, name=user, redirect=/user/system-user, component=PageView, id=10, parentId=0}, {meta={icon=user, show=true, title=账号管理}, name=account, redirect=/account/center, component=RouteView, id=40, parentId=0}])
+2021-04-28 13:52:01.245 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, username, password, salt, role_ids, locked from sys_user WHERE ( username = ? )
+2021-04-28 13:52:01.245 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.UserMapper.selectByExample  : ==> Parameters: admin(String)
+2021-04-28 13:52:01.246 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.UserMapper.selectByExample  : <==      Total: 1
+2021-04-28 13:52:01.248 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.RoleMapper.selectByExample  : ==>  Preparing: select id, role, name, description, status, permission_ids from sys_role WHERE ( id in (?) )
+2021-04-28 13:52:01.248 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.RoleMapper.selectByExample  : ==> Parameters: 1(Long)
+2021-04-28 13:52:01.249 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.RoleMapper.selectByExample  : <==      Total: 1
+2021-04-28 13:52:01.250 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, username, password, salt, role_ids, locked from sys_user WHERE ( username = ? )
+2021-04-28 13:52:01.251 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.UserMapper.selectByExample  : ==> Parameters: admin(String)
+2021-04-28 13:52:01.252 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.UserMapper.selectByExample  : <==      Total: 1
+2021-04-28 13:52:01.254 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.RoleMapper.selectByExample  : ==>  Preparing: select id, role, name, description, status, permission_ids from sys_role WHERE ( id in (?) )
+2021-04-28 13:52:01.254 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.RoleMapper.selectByExample  : ==> Parameters: 1(Long)
+2021-04-28 13:52:01.255 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.mapper.RoleMapper.selectByExample  : <==      Total: 1
+2021-04-28 13:52:01.258 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.m.P.selectByExample                : ==>  Preparing: select id, name, type, permission, parent_id, parent_ids, icon, config, status, sort from sys_permission WHERE ( id in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) )
+2021-04-28 13:52:01.259 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.m.P.selectByExample                : ==> Parameters: 1(Long), 131(Long), 132(Long), 133(Long), 134(Long), 40(Long), 10(Long), 139(Long), 43(Long), 44(Long), 45(Long), 46(Long), 111(Long), 47(Long), 112(Long), 113(Long), 114(Long), 21(Long), 121(Long), 122(Long), 123(Long), 124(Long), 31(Long)
+2021-04-28 13:52:01.262 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.m.P.selectByExample                : <==      Total: 23
+2021-04-28 13:52:01.267  INFO 2844 --- [http-nio-8080-exec-6] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.PermissionController.queryPermissionTreeNoPager(), args: []
+2021-04-28 13:52:01.272 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.m.P.selectByExample                : ==>  Preparing: select id, name, type, permission, parent_id, parent_ids, icon, config, status, sort from sys_permission order by sort ASC
+2021-04-28 13:52:01.273 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.m.P.selectByExample                : ==> Parameters: 
+2021-04-28 13:52:01.278 DEBUG 2844 --- [http-nio-8080-exec-6] t.w.a.m.P.selectByExample                : <==      Total: 30
+2021-04-28 13:52:01.284  INFO 2844 --- [http-nio-8080-exec-6] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.PermissionController.queryPermissionTreeNoPager() in 17 ms, return: Result(success=true, code=1000, message=成功, result=tech.wetech.admin.model.PageWrapper@6583bffe)
+2021-04-28 13:52:40.438  INFO 2844 --- [http-nio-8080-exec-9] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.PermissionController.queryPermissionTree(), args: []
+2021-04-28 13:52:40.440 DEBUG 2844 --- [http-nio-8080-exec-9] t.w.a.m.P.selectByExample                : ==>  Preparing: select id, name, type, permission, parent_id, parent_ids, icon, config, status, sort from sys_permission order by sort ASC
+2021-04-28 13:52:40.441 DEBUG 2844 --- [http-nio-8080-exec-9] t.w.a.m.P.selectByExample                : ==> Parameters: 
+2021-04-28 13:52:40.444 DEBUG 2844 --- [http-nio-8080-exec-9] t.w.a.m.P.selectByExample                : <==      Total: 30
+2021-04-28 13:52:40.445  INFO 2844 --- [http-nio-8080-exec-9] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.PermissionController.queryPermissionTree() in 7 ms, return: Result(success=true, code=1000, message=成功, result=[PermissionTreeDTO(id=1, name=仪表盘, type=1, permission=dashboard, parentId=0, parentIds=0/, icon=dashboard, config={"meta": {"icon": "dashboard", "show": true, "title": "仪表盘"}, "name": "dashboard", "redirect": "/dashboard/workplace", "component": "RouteView"}, status=1, sort=0, children=[PermissionTreeDTO(id=2, name=工作台, type=1, permission=workspace, parentId=1, parentIds=0/1/, icon=null, config={"meta": {"show": true, "title": "工作台"}, "name": "workplace", "component": "Workplace"}, status=1, sort=0, children=[PermissionTreeDTO(id=21, name=工作台查看, type=2, permission=workspace:view, parentId=2, parentIds=0/1/3/, icon=null, config=null, status=1, sort=0, children=[])]), PermissionTreeDTO(id=3, name=分析页, type=1, permission=analysis, parentId=1, parentIds=0/1/, icon=null, config={"meta": {"show": true, "title": "分析页"}, "name": "analysis", "component": "Analysis"}, status=1, sort=0, children=[PermissionTreeDTO(id=31, name=分析页查看, type=2, permission=analysis:view, parentId=3, parentIds=0/1/4, icon=null, config=null, status=1, sort=0, children=[])])]), PermissionTreeDTO(id=10, name=用户管理, type=1, permission=user:mgr, parentId=0, parentIds=0/10/, icon=user, config={"meta": {"icon": "user", "show": true, "title": "用户管理"}, "name": "user", "redirect": "/user/system-user", "component": "PageView"}, status=1, sort=1, children=[PermissionTreeDTO(id=11, name=用户列表, type=1, permission=user:view, parentId=10, parentIds=0/10/, icon=user, config={"meta": {"icon": "user", "show": true, "title": "用户列表"}, "name": "user-list", "component": "UserList"}, status=1, sort=0, children=[PermissionTreeDTO(id=111, name=用户查看, type=2, permission=user:view, parentId=11, parentIds=0/10/11/, icon=question, config=null, status=1, sort=0, children=[]), PermissionTreeDTO(id=112, name=用户新增, type=2, permission=user:create, parentId=11, parentIds=0/10/11/, icon=null, config=null, status=1, sort=0, children=[]), PermissionTreeDTO(id=113, name=用户修改, type=2, permission=user:update, parentId=11, parentIds=0/10/11/, icon=null, config=null, status=1, sort=0, children=[]), PermissionTreeDTO(id=114, name=用户删除, type=2, permission=user:delete, parentId=11, parentIds=0/10/11/, icon=null, config=null, status=1, sort=0, children=[])]), PermissionTreeDTO(id=12, name=角色列表, type=1, permission=role:view, parentId=10, parentIds=0/10/, icon=team, config={"meta": {"icon": "team", "show": true, "title": "角色列表"}, "name": "role-list", "component": "RoleList"}, status=1, sort=0, children=[PermissionTreeDTO(id=121, name=角色查看, type=2, permission=role:view, parentId=12, parentIds=0/10/12/, icon=null, config=null, status=1, sort=0, children=[]), PermissionTreeDTO(id=122, name=角色新增, type=2, permission=role:create, parentId=12, parentIds=0/10/12/, icon=null, config=null, status=1, sort=0, children=[]), PermissionTreeDTO(id=123, name=角色修改, type=2, permission=role:update, parentId=12, parentIds=0/10/12/, icon=null, config=null, status=1, sort=0, children=[]), PermissionTreeDTO(id=124, name=角色删除, type=2, permission=role:delete, parentId=12, parentIds=0/10/12/, icon=null, config=null, status=1, sort=0, children=[])]), PermissionTreeDTO(id=13, name=权限列表, type=1, permission=permission:view, parentId=10, parentIds=0/10/, icon=tool, config={"meta": {"icon": "tool", "show": true, "title": "权限列表"}, "name": "permission-list", "component": "PermissionList"}, status=1, sort=0, children=[PermissionTreeDTO(id=131, name=权限查看, type=2, permission=permission:view, parentId=13, parentIds=0/10/13/, icon=null, config=null, status=1, sort=0, children=[]), PermissionTreeDTO(id=132, name=权限新增, type=2, permission=permission:create, parentId=13, parentIds=0/10/13/, icon=null, config=null, status=1, sort=0, children=[]), PermissionTreeDTO(id=133, name=权限修改, type=2, permission=permission:update, parentId=13, parentIds=0/10/13/, icon=null, config=null, status=1, sort=0, children=[]), PermissionTreeDTO(id=134, name=权限删除, type=2, permission=permission:delete, parentId=13, parentIds=0/10/13/, icon=null, config=null, status=1, sort=0, children=[])])]), PermissionTreeDTO(id=40, name=账号管理, type=1, permission=account, parentId=0, parentIds=0/, icon=user, config={"meta": {"icon": "user", "show": true, "title": "账号管理"}, "name": "account", "redirect": "/account/center", "component": "RouteView"}, status=1, sort=100, children=[PermissionTreeDTO(id=41, name=个人中心, type=1, permission=account:center, parentId=40, parentIds=0/40/, icon=user, config={"meta": {"icon": "user", "show": true, "title": "个人中心"}, "name": "center", "component": "AccountCenter"}, status=1, sort=0, children=[PermissionTreeDTO(id=139, name=个人中心查看, type=2, permission=userinfo:center:view, parentId=41, parentIds=0/40/41/, icon=question, config={}, status=1, sort=0, children=[])]), PermissionTreeDTO(id=42, name=个人设置, type=1, permission=account:settings, parentId=40, parentIds=0/40/, icon=user, config={"meta": {"icon": "user", "show": true, "title": "个人设置", "hideHeader": true, "hideChildren": true}, "name": "settings", "redirect": "/account/settings/base", "component": "AccountSettings"}, status=1, sort=0, children=[PermissionTreeDTO(id=43, name=基本设置, type=1, permission=account:base, parentId=42, parentIds=0/40/42/, icon=user, config={"meta": {"icon": "user", "title": "基本设置", "keepAlive": true}, "path": "/account/settings/base", "component": "BaseSettings"}, status=1, sort=0, children=[]), PermissionTreeDTO(id=44, name=安全设置, type=1, permission=account:security, parentId=42, parentIds=0/40/42/, icon=null, config={"meta": {"title": "安全设置", "keepAlive": true}, "name": "security", "path": "/account/settings/security", "component": "SecuritySettings"}, status=1, sort=0, children=[]), PermissionTreeDTO(id=45, name=个性化设置, type=1, permission=account:custom, parentId=42, parentIds=0/40/42/, icon=user, config={"meta": {"icon": "user", "title": "个性化设置", "keepAlive": true}, "path": "/account/settings/custom", "component": "CustomSettings"}, status=1, sort=0, children=[]), PermissionTreeDTO(id=46, name=账户绑定, type=1, permission=account:binding, parentId=42, parentIds=0/40/42/, icon=, config={"meta": {"icon": "", "title": "账户绑定", "keepAlive": true}, "path": "/account/settings/binding", "component": "BindingSettings"}, status=1, sort=0, children=[]), PermissionTreeDTO(id=47, name=新消息通知, type=1, permission=account:notification, parentId=42, parentIds=0/40/42/, icon=null, config={"meta": {"title": "新消息通知", "keepAlive": true}, "path": "/account/settings/notification", "component": "NotificationSettings"}, status=1, sort=0, children=[])])])])
+2021-04-28 13:53:36.472  INFO 2844 --- [http-nio-8080-exec-8] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.RoleController.queryRoleList(), args: []
+2021-04-28 13:53:36.475 DEBUG 2844 --- [http-nio-8080-exec-8] t.w.admin.mapper.RoleMapper.selectAll    : ==>  Preparing: SELECT id, role, name, description, status, permission_ids FROM sys_role
+2021-04-28 13:53:36.476 DEBUG 2844 --- [http-nio-8080-exec-8] t.w.admin.mapper.RoleMapper.selectAll    : ==> Parameters: 
+2021-04-28 13:53:36.478 DEBUG 2844 --- [http-nio-8080-exec-8] t.w.admin.mapper.RoleMapper.selectAll    : <==      Total: 5
+2021-04-28 13:53:36.480  INFO 2844 --- [http-nio-8080-exec-8] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.RoleController.queryRoleList() in 8 ms, return: Result(success=true, code=1000, message=成功, result=[RoleDTO(id=1, role=admin, name=管理员, description=拥有所有权限, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 133, 134, 40, 139, 43, 44, 45, 46, 47]), RoleDTO(id=2, role=guest, name=访客, description=访问人员，只能查询, status=1, permissionIds=[1, 21, 31, 10, 111, 121, 131]), RoleDTO(id=3, role=test, name=测试人员, description=测试的账号, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 133, 134, 40, 43, 44, 45, 46, 47]), RoleDTO(id=4, role=svip, name=SVIP, description=超级会员, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 134, 133, 40]), RoleDTO(id=5, role=user, name=普通会员, description=普通用户，基本权限, status=1, permissionIds=[21, 43, 47])])
+2021-04-28 13:54:31.581  INFO 2844 --- [http-nio-8080-exec-7] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.UserController.queryUserList(UserQuery), args: [UserQuery(id=1, username=null, locked=null)]
+2021-04-28 13:54:31.586 DEBUG 2844 --- [http-nio-8080-exec-7] t.w.a.mapper.UserMapper.selectByExample  : ==>   CountSQL: SELECT COUNT(*) FROM (select    id, username, password, salt, role_ids, locked  from sys_user WHERE  (  id = ? )  order by id DESC) tmp_count
+2021-04-28 13:54:31.590 DEBUG 2844 --- [http-nio-8080-exec-7] t.w.a.mapper.UserMapper.selectByExample  : ==> TotalCount: 1
+2021-04-28 13:54:31.590  INFO 2844 --- [http-nio-8080-exec-7] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.UserController.queryUserList(UserQuery) in 9 ms, return: Result(success=true, code=1000, message=成功, result=tech.wetech.admin.model.PageWrapper@b3fed85)
+2021-04-28 13:54:55.371  INFO 2844 --- [http-nio-8080-exec-10] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.UserController.queryUserList(UserQuery), args: [UserQuery(id=null, username=null, locked=null)]
+2021-04-28 13:54:55.372 DEBUG 2844 --- [http-nio-8080-exec-10] t.w.a.mapper.UserMapper.selectByExample  : ==>   CountSQL: SELECT COUNT(*) FROM (select    id, username, password, salt, role_ids, locked  from sys_user   order by id DESC) tmp_count
+2021-04-28 13:54:55.373 DEBUG 2844 --- [http-nio-8080-exec-10] t.w.a.mapper.UserMapper.selectByExample  : ==> TotalCount: 24
+2021-04-28 13:54:55.373  INFO 2844 --- [http-nio-8080-exec-10] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.UserController.queryUserList(UserQuery) in 2 ms, return: Result(success=true, code=1000, message=成功, result=tech.wetech.admin.model.PageWrapper@7a2046c0)
+2021-04-28 13:55:34.214  INFO 2844 --- [http-nio-8080-exec-1] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.RoleController.queryRoleList(), args: []
+2021-04-28 13:55:34.215 DEBUG 2844 --- [http-nio-8080-exec-1] t.w.admin.mapper.RoleMapper.selectAll    : ==>  Preparing: SELECT id, role, name, description, status, permission_ids FROM sys_role
+2021-04-28 13:55:34.216 DEBUG 2844 --- [http-nio-8080-exec-1] t.w.admin.mapper.RoleMapper.selectAll    : ==> Parameters: 
+2021-04-28 13:55:34.217 DEBUG 2844 --- [http-nio-8080-exec-1] t.w.admin.mapper.RoleMapper.selectAll    : <==      Total: 5
+2021-04-28 13:55:34.218  INFO 2844 --- [http-nio-8080-exec-1] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.RoleController.queryRoleList() in 4 ms, return: Result(success=true, code=1000, message=成功, result=[RoleDTO(id=1, role=admin, name=管理员, description=拥有所有权限, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 133, 134, 40, 139, 43, 44, 45, 46, 47]), RoleDTO(id=2, role=guest, name=访客, description=访问人员，只能查询, status=1, permissionIds=[1, 21, 31, 10, 111, 121, 131]), RoleDTO(id=3, role=test, name=测试人员, description=测试的账号, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 133, 134, 40, 43, 44, 45, 46, 47]), RoleDTO(id=4, role=svip, name=SVIP, description=超级会员, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 134, 133, 40]), RoleDTO(id=5, role=user, name=普通会员, description=普通用户，基本权限, status=1, permissionIds=[21, 43, 47])])
+2021-04-28 13:56:19.182  INFO 2844 --- [http-nio-8080-exec-2] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.RoleController.queryRoleList(), args: []
+2021-04-28 13:56:19.183 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.admin.mapper.RoleMapper.selectAll    : ==>  Preparing: SELECT id, role, name, description, status, permission_ids FROM sys_role
+2021-04-28 13:56:19.183 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.admin.mapper.RoleMapper.selectAll    : ==> Parameters: 
+2021-04-28 13:56:19.186 DEBUG 2844 --- [http-nio-8080-exec-2] t.w.admin.mapper.RoleMapper.selectAll    : <==      Total: 5
+2021-04-28 13:56:19.186  INFO 2844 --- [http-nio-8080-exec-2] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.RoleController.queryRoleList() in 4 ms, return: Result(success=true, code=1000, message=成功, result=[RoleDTO(id=1, role=admin, name=管理员, description=拥有所有权限, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 133, 134, 40, 139, 43, 44, 45, 46, 47]), RoleDTO(id=2, role=guest, name=访客, description=访问人员，只能查询, status=1, permissionIds=[1, 21, 31, 10, 111, 121, 131]), RoleDTO(id=3, role=test, name=测试人员, description=测试的账号, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 133, 134, 40, 43, 44, 45, 46, 47]), RoleDTO(id=4, role=svip, name=SVIP, description=超级会员, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 134, 133, 40]), RoleDTO(id=5, role=user, name=普通会员, description=普通用户，基本权限, status=1, permissionIds=[21, 43, 47])])
+2021-04-28 14:08:46.134  INFO 2844 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-28 14:08:46.136  INFO 2844 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-28 14:08:46.142  INFO 2844 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-28 18:32:05.856  INFO 2444 --- [restartedMain] t.wetech.admin.WetechAdminApplication    : Starting WetechAdminApplication on DESKTOP-K0B0JQ9 with PID 2444 (D:\code\Security\wetech-admin\wetech-admin-server\target\classes started by kangchen in D:\code\Security\wetech-admin)
+2021-04-28 18:32:05.859 DEBUG 2444 --- [restartedMain] t.wetech.admin.WetechAdminApplication    : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-04-28 18:32:05.859  INFO 2444 --- [restartedMain] t.wetech.admin.WetechAdminApplication    : The following profiles are active: development
+2021-04-28 18:32:05.901  INFO 2444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-28 18:32:05.902  INFO 2444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-28 18:32:06.855  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [tech.wetech.admin.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$844ad2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:06.952  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-tech.wetech.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [tech.wetech.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:06.958  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tech.wetech.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [tech.wetech.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$64243f9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:06.959  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:06.964  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:06.981  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:06.991  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:06.995  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.083  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.086  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.107  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.108  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleMapper' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.129  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.129  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.130  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [tech.wetech.admin.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.130  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'roleServiceImpl' of type [tech.wetech.admin.service.impl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.135  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'passwordHelper' of type [tech.wetech.admin.service.PasswordHelper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.135  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [tech.wetech.admin.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.136  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jwtRealm' of type [tech.wetech.admin.shiro.JwtRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.139  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'subjectFactory' of type [tech.wetech.admin.shiro.JwtSubjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.145  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.147  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'cacheManager' of type [org.apache.shiro.cache.MemoryConstrainedCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.190  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.192  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodInvokingFactoryBean' of type [org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.230  INFO 2444 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-28 18:32:07.578  INFO 2444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-28 18:32:07.586  INFO 2444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 18:32:07.586  INFO 2444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-04-28 18:32:07.643  INFO 2444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 18:32:07.644  INFO 2444 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1742 ms
+2021-04-28 18:32:08.117  INFO 2444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-28 18:32:08.162  INFO 2444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-28 18:32:08.440  INFO 2444 --- [restartedMain] t.wetech.admin.WetechAdminApplication    : Started WetechAdminApplication in 2.907 seconds (JVM running for 3.866)
+2021-04-28 18:32:08.443 DEBUG 2444 --- [SimpleAsyncTaskExecutor-31] t.w.a.e.GlobalAnnotationDrivenListener   : Handling application org.springframework.boot.context.event.ApplicationStartedEvent[source=org.springframework.boot.SpringApplication@6ea1792d] started event.
+2021-04-28 18:32:08.445 DEBUG 2444 --- [SimpleAsyncTaskExecutor-31] t.w.a.e.GlobalAnnotationDrivenListener   : >>>>>>>>>>>>>>> 服务启动完成！
+2021-04-28 18:38:33.046  INFO 2444 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-28 18:38:33.047  INFO 2444 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-28 18:38:33.356  INFO 2444 --- [http-nio-8080-exec-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 18:38:33.492  INFO 2444 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 445 ms
+2021-04-28 18:38:33.668  INFO 2444 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-28 18:38:34.024  INFO 2444 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-28 18:38:34.090 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, username, password, salt, role_ids, locked from sys_user WHERE ( username = ? )
+2021-04-28 18:38:34.115 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.UserMapper.selectByExample  : ==> Parameters: admin(String)
+2021-04-28 18:38:34.138 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.UserMapper.selectByExample  : <==      Total: 1
+2021-04-28 18:38:34.146 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.RoleMapper.selectByExample  : ==>  Preparing: select id, role, name, description, status, permission_ids from sys_role WHERE ( id in (?) )
+2021-04-28 18:38:34.147 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.RoleMapper.selectByExample  : ==> Parameters: 1(Long)
+2021-04-28 18:38:34.150 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.RoleMapper.selectByExample  : <==      Total: 1
+2021-04-28 18:38:34.151 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.UserMapper.selectByExample  : ==>  Preparing: select id, username, password, salt, role_ids, locked from sys_user WHERE ( username = ? )
+2021-04-28 18:38:34.152 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.UserMapper.selectByExample  : ==> Parameters: admin(String)
+2021-04-28 18:38:34.153 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.UserMapper.selectByExample  : <==      Total: 1
+2021-04-28 18:38:34.156 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.RoleMapper.selectByExample  : ==>  Preparing: select id, role, name, description, status, permission_ids from sys_role WHERE ( id in (?) )
+2021-04-28 18:38:34.157 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.RoleMapper.selectByExample  : ==> Parameters: 1(Long)
+2021-04-28 18:38:34.159 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.mapper.RoleMapper.selectByExample  : <==      Total: 1
+2021-04-28 18:38:34.164 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.m.P.selectByExample                : ==>  Preparing: select id, name, type, permission, parent_id, parent_ids, icon, config, status, sort from sys_permission WHERE ( id in (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) )
+2021-04-28 18:38:34.165 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.m.P.selectByExample                : ==> Parameters: 1(Long), 131(Long), 132(Long), 133(Long), 134(Long), 40(Long), 10(Long), 139(Long), 43(Long), 44(Long), 45(Long), 46(Long), 111(Long), 47(Long), 112(Long), 113(Long), 114(Long), 21(Long), 121(Long), 122(Long), 123(Long), 124(Long), 31(Long)
+2021-04-28 18:38:34.177 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.a.m.P.selectByExample                : <==      Total: 23
+2021-04-28 18:38:34.188  INFO 2444 --- [http-nio-8080-exec-1] t.w.admin.aspect.ControllerLogAspect     : >>> Begin execute Result tech.wetech.admin.controller.RoleController.queryRoleList(), args: []
+2021-04-28 18:38:34.191 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.admin.mapper.RoleMapper.selectAll    : ==>  Preparing: SELECT id, role, name, description, status, permission_ids FROM sys_role
+2021-04-28 18:38:34.191 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.admin.mapper.RoleMapper.selectAll    : ==> Parameters: 
+2021-04-28 18:38:34.193 DEBUG 2444 --- [http-nio-8080-exec-1] t.w.admin.mapper.RoleMapper.selectAll    : <==      Total: 5
+2021-04-28 18:38:34.195  INFO 2444 --- [http-nio-8080-exec-1] t.w.admin.aspect.ControllerLogAspect     : <<< End execute Result tech.wetech.admin.controller.RoleController.queryRoleList() in 7 ms, return: Result(success=true, code=1000, message=成功, result=[RoleDTO(id=1, role=admin, name=管理员, description=拥有所有权限, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 133, 134, 40, 139, 43, 44, 45, 46, 47]), RoleDTO(id=2, role=guest, name=访客, description=访问人员，只能查询, status=1, permissionIds=[1, 21, 31, 10, 111, 121, 131]), RoleDTO(id=3, role=test, name=测试人员, description=测试的账号, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 133, 134, 40, 43, 44, 45, 46, 47]), RoleDTO(id=4, role=svip, name=SVIP, description=超级会员, status=1, permissionIds=[1, 21, 31, 10, 111, 112, 113, 114, 121, 122, 123, 124, 131, 132, 134, 133, 40]), RoleDTO(id=5, role=user, name=普通会员, description=普通用户，基本权限, status=1, permissionIds=[21, 43, 47])])
+2021-04-28 18:43:23.543  INFO 2444 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-28 18:43:23.550  INFO 2444 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-28 18:43:23.558  INFO 2444 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
